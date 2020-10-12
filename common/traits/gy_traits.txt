@@ -1,0 +1,26 @@
+﻿###
+# Indices notes for other modders
+# Reserved 5800-5850 for this mod
+###
+
+# Standard Values
+# @pos_compat_high = 30
+# @pos_compat_medium = 15
+# @pos_compat_low = 5
+
+# @neg_compat_high = -30
+# @neg_compat_medium = -15
+# @neg_compat_low = -5
+
+gy_girl_trait = {
+	index = 5803
+	
+	can_inherit = no
+	can_inherit_from_dynasty = no
+	blocks_from_claim_inheritance = yes
+	blocks_from_claim_inheritance_from_dynasty = yes
+	
+	can_have_children = no
+	fertility = -10
+	
+}
