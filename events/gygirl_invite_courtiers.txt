@@ -213,12 +213,17 @@ gygirl_invite_courtiers.0002 = {
 	# Hire them
 	option = {
 		name = gygirl_invite_courtiers.0002.a
-		hidden_effect = {
-			scope:actor = {
+		send_interface_toast = {
+			title = gygirl_take_girl_title
+			left_icon = root
+			right_icon = scope:target
+			tooltip = gygirl_take_girl_title_text
+			root = {
 				add_hook = {
-					target = scope:target
-					type = strong_test_hook
+						target = scope:target
+						type = strong_test_hook
 				}
+				set_relation_friend = scope:target
 			}
 		}
 	}
@@ -405,14 +410,19 @@ gygirl_invite_courtiers.0003 = {
 	# Hire them
 	option = {
 		name = gygirl_invite_courtiers.0003.a
-		hidden_effect = {
-			scope:actor = {
+		send_interface_toast = {
+			title = gygirl_take_girl_title
+			left_icon = root
+			right_icon = scope:target
+			tooltip = gygirl_take_girl_title_text
+			root = {
 				add_hook = {
-					target = scope:target
-					type = strong_test_hook
+						target = scope:target
+						type = strong_test_hook
 				}
+				set_relation_friend = scope:target
 			}
-		}
+		}	
 	}
 
 	# Don't hire them
@@ -601,12 +611,17 @@ gygirl_invite_courtiers.0004 = {
 	# Hire them
 	option = {
 		name = gygirl_invite_courtiers.0004.a
-		hidden_effect = {
-			scope:actor = {
+		send_interface_toast = {
+			title = gygirl_take_girl_title
+			left_icon = root
+			right_icon = scope:target
+			tooltip = gygirl_take_girl_title_text
+			root = {
 				add_hook = {
-					target = scope:target
-					type = strong_test_hook
+						target = scope:target
+						type = strong_test_hook
 				}
+				set_relation_friend = scope:target
 			}
 		}
 	}
@@ -791,12 +806,17 @@ gygirl_invite_courtiers.0006 = {
 	# Hire them
 	option = {
 		name = gygirl_invite_courtiers.0006.a
-		hidden_effect = {
-			scope:actor = {
+		send_interface_toast = {
+			title = gygirl_take_girl_title
+			left_icon = root
+			right_icon = scope:target
+			tooltip = gygirl_take_girl_title_text
+			root = {
 				add_hook = {
-					target = scope:target
-					type = strong_test_hook
+						target = scope:target
+						type = strong_test_hook
 				}
+				set_relation_friend = scope:target
 			}
 		}
 	}
@@ -935,12 +955,17 @@ gygirl_invite_courtiers.0007 = {
 	# Hire them
 	option = {
 		name = gygirl_invite_courtiers.0007.a
-		hidden_effect = {
-			scope:actor = {
+		send_interface_toast = {
+			title = gygirl_take_girl_title
+			left_icon = root
+			right_icon = scope:target
+			tooltip = gygirl_take_girl_title_text
+			root = {
 				add_hook = {
-					target = scope:target
-					type = strong_test_hook
+						target = scope:target
+						type = strong_test_hook
 				}
+				set_relation_friend = scope:target
 			}
 		}
 	}
@@ -1079,12 +1104,17 @@ gygirl_invite_courtiers.0008 = {
 	# Hire them
 	option = {
 		name = gygirl_invite_courtiers.0008.a
-		hidden_effect = {
-			scope:actor = {
+		send_interface_toast = {
+			title = gygirl_take_girl_title
+			left_icon = root
+			right_icon = scope:target
+			tooltip = gygirl_take_girl_title_text
+			root = {
 				add_hook = {
-					target = scope:target
-					type = strong_test_hook
+						target = scope:target
+						type = strong_test_hook
 				}
+				set_relation_friend = scope:target
 			}
 		}
 	}
@@ -1223,12 +1253,17 @@ gygirl_invite_courtiers.0009 = {
 	# Hire them
 	option = {
 		name = gygirl_invite_courtiers.0009.a
-		hidden_effect = {
-			scope:actor = {
+		send_interface_toast = {
+			title = gygirl_take_girl_title
+			left_icon = root
+			right_icon = scope:target
+			tooltip = gygirl_take_girl_title_text
+			root = {
 				add_hook = {
-					target = scope:target
-					type = strong_test_hook
+						target = scope:target
+						type = strong_test_hook
 				}
+				set_relation_friend = scope:target
 			}
 		}
 	}
@@ -1367,15 +1402,19 @@ gygirl_invite_courtiers.0010 = {
 	# Hire them
 	option = {
 		name = gygirl_invite_courtiers.0010.a
-		hidden_effect = {
-			scope:actor = {
+		send_interface_toast = {
+			title = gygirl_take_girl_title
+			left_icon = root
+			right_icon = scope:target
+			tooltip = gygirl_take_girl_title_text
+			root = {
 				add_hook = {
-					target = scope:target
-					type = strong_test_hook
+						target = scope:target
+						type = strong_test_hook
 				}
+				set_relation_friend = scope:target
 			}
 		}
-
 	}
 
 	# Don't hire them

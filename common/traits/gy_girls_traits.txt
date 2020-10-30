@@ -23,4 +23,5 @@ gy_girl_trait = {
 	can_have_children = no
 	fertility = -10
 	
+	inherit_chance = 100
 }

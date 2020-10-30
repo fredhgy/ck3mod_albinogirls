@@ -1,10 +1,10 @@
 ﻿l_simp_chinese:
  
- trait_gy_girl_trait: "召唤美少女"
- trait_gy_girl_trait_desc: "这个美少女受领主召唤而来，只服从于她的主人"
+ trait_gy_girl_trait: "召唤美少女(的后代)"
+ trait_gy_girl_trait_desc: "这个角色受领主召唤而来，只服从于她的主人。她的子孙后代均效忠于你。"
  trait_gy_girl_trait_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]受领主召唤而来，只服从于她的主人"
 
- gygirl_invite_courtiers_decision: "美少女抽卡{GYTools}"
+ gygirl_invite_courtiers_decision: "美少女抽卡{GYGirls}"
  gygirl_invite_courtiers_decision_desc: "关于在我的宅邸里突然出现的那个神秘的温泉，最近，那个神秘出现的泉眼在冒泡？我似乎听到泉眼中在低语着什么话语，在我稍微靠近后，我听到了它的渴求：支付报酬，召唤一个银发少女。"
  gygirl_invite_courtiers_decision_tooltip: "令人惊讶！"
  gygirl_invite_courtiers_decision_confirm: "嘿，听起来有点意思，来吧！" 
@@ -71,4 +71,7 @@
  gygirl_five_stars_title_text: "[target.GetFirstName]是名强力的5星少女，你获得了威望返还，并获得10%虔诚"
  gygirl_six_stars_title: "你获得了6星少女[target.GetFirstName]！"
  gygirl_six_stars_title_text: "[target.GetFirstName]是名强力的6星少女，你获得了威望返还，并获得50%虔诚"
+ 
+ gygirl_take_girl_title: "银发少女宣誓效忠"
+ gygirl_take_girl_title_text: "银发少女宣誓效忠于你"
  
